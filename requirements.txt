@@ -1,0 +1,6 @@
+robotframework
+robotframework-faker
+robotframework-pythonlibcore
+sqlalchemy
+psycopg2-binary
+factory-boy
