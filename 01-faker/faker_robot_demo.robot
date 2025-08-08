@@ -11,7 +11,4 @@ Generate Fake Data And Log
     Log To Console    Email: ${email}
     Log To Console    Address: ${address}
 
-Generate Custom Locale Data
-    [Documentation]   Generate data in Thai locale.
-    ${phone}=          FakerLibrary.Phone Number
-    Log To Console     Thai phone number: ${phone}
+

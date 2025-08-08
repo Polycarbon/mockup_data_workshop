@@ -16,7 +16,7 @@ from sqlalchemy.orm import declarative_base, sessionmaker
 # Engine & Session factory
 # ---------------------------------------------------------------------------
 
-DB_PATH = Path(__file__).with_suffix(".db")
+DB_PATH = Path(__file__).parent.parent / "mock.db"
 DATABASE_URL = os.getenv("DATABASE_URL", f"sqlite:///{DB_PATH}")
 
 engine = create_engine(DATABASE_URL, echo=False, future=True)
